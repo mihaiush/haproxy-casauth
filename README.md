@@ -52,7 +52,7 @@ txn.CAS = {
    AN2 = AV2, 
    ...
  }
- bypass = false|true
+ bypass = false
 }
 ```
 ```
