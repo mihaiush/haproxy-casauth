@@ -24,7 +24,7 @@ frontend
 | `bypassParameter` | `y` | `skipCas` | Parameter to add to an URL to bypass CAS. |
 | `bypassKeep` | `n` | | Keep bypass parameter after processing CAS. |
 | `renew` | `n` | | See CAS specs for `renew`. |
-| `headerPrefix` | `y` | | Prefix for CAS headers. |
+| `headerPrefix` | `y` | | Prefix for CAS headers. If not configured, no request headers are added. |
 | `version` | `y` | `3` | CAS server version. |
 ### How it works
 If authentication is successful it will configure user data in `txn.CAS` table and in request headers prefixed with `headerPrefix`. E.g. for version `3` and headerPrefix `CAS`:
