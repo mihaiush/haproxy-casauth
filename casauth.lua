@@ -70,6 +70,7 @@ function action_casauth(txn)
         if p[1] == 'ticket' then
             ticket = p[2]
             i = j
+            break
         end
     end
     if ticket then

@@ -1,6 +1,6 @@
 # haproxy-casauth
 
-HAProxy lua action implementing [Central Authentication Service](https://en.wikipedia.org/wiki/Central_Authentication_Service)
+HAProxy lua action implementing [Central Authentication Service](https://en.wikipedia.org/wiki/Central_Authentication_Service). Proxy is not supported, only simple authentication.
 
 It requires [json.lua](https://github.com/rxi/json.lua)
 
